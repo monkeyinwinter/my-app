@@ -12,9 +12,10 @@ export class AppareilComponent implements OnInit {
     @Input() appareilName: string;
     @Input() appareilStatus: string;
     @Input() index: number;
+    @Input() id: number;
 
-    appareilName: string = 'Machine à laver';
-    appareilStatus: string = 'éteint';
+/*    appareilName: string = 'Machine à laver';
+    appareilStatus: string = 'éteint';*/
 
     constructor(private appareilService: AppareilService) { }
 

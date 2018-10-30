@@ -51,10 +51,8 @@ export class AppComponent implements OnInit {
         this.appareils = this.appareilService.appareils;
     }
 
-    onAllumer() {
-
+/*    onAllumer() {
         this.appareilService.switchOnAll();
-
     }
 
     onEteindre() {
@@ -67,13 +65,11 @@ export class AppComponent implements OnInit {
 
     switchOnOne(i: number) {
         this.appareils[i].status = 'allumé';
-
     }
-
 
     switchOffOne(i: number) {
         this.appareils[i].status = 'éteint';
 
-    }
+    }*/
 
 }
